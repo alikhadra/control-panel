@@ -10,6 +10,7 @@
     padding: spcaing() spacing("small");
     flex-grow: 1;
     border-bottom: 3px solid transparent;
+    cursor: default;
 }
 .c-tabs__tab.is-active {
     border-color: $color-primary;

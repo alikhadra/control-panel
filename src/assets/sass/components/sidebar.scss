@@ -15,7 +15,7 @@ $dense-width: $sidebar-control-width + ($sidebar-dense-padding * 2) + $shift;
   display: flex;  
   padding: spacing("wide") $sidebar-normal-padding;
   z-index: 10;
-  background-color: $color-background;
+  background-color:  rgba($color-blue-dark, 0.1);
 }
 
 .c-sidebar__backdrop {
